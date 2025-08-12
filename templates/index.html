@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart Image Analyzer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Smart Image Analyzer</h1>
+    <form id="uploadForm" enctype="multipart/form-data">
+        <input type="file" name="file" required>
+        <button type="submit">Analyze</button>
+    </form>
+
+    <div id="results"></div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
