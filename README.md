@@ -13,11 +13,4 @@ A simple Flask web app that uses **AWS Rekognition** to analyze images and detec
 - **AWS Rekognition**
 - HTML, CSS, JavaScript
 
-## 📂 Project Structure
-See the [file structure](#) above.
 
-## ⚙️ Setup
-1. Clone the repo:
-```bash
-git clone https://github.com/yourusername/smart-image-analyzer.git
-cd smart-image-analyzer
